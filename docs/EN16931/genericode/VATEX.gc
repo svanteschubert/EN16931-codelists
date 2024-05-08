@@ -10,9 +10,9 @@ Do NOT edit!</ext:info>
   </Annotation>
   <Identification>
     <ShortName>VATEX</ShortName>
-    <Version>2023-05-15</Version>
+    <Version>2024-05-15</Version>
     <CanonicalUri>urn:cef.eu:names:identifier:VATEX</CanonicalUri>
-    <CanonicalVersionUri>urn:cef.eu:names:identifier:VATEX-2023-05-15</CanonicalVersionUri>
+    <CanonicalVersionUri>urn:cef.eu:names:identifier:VATEX-2024-05-15</CanonicalVersionUri>
   </Identification>
   <ColumnSet>
     <Column Id="Code" Use="required">
@@ -514,6 +514,28 @@ Do NOT edit!</ext:info>
       </Value>
       <Value ColumnRef="Remark">
         <SimpleValue>Only use with VAT category code O</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>VATEX-FR-CNWVAT</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>France domestic Credit Notes without VAT, due to supplier forfeit of VAT for discount</SimpleValue>
+      </Value>
+      <Value ColumnRef="Remark">
+        <SimpleValue>For domestic Credit Notes only in France</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>VATEX-FR-FRANCHISE</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>France domestic VAT franchise in base</SimpleValue>
+      </Value>
+      <Value ColumnRef="Remark">
+        <SimpleValue>For domestic invoicing in France</SimpleValue>
       </Value>
     </Row>
   </SimpleCodeList>

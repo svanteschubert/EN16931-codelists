@@ -10,9 +10,9 @@ Do NOT edit!</ext:info>
   </Annotation>
   <Identification>
     <ShortName>Allowance</ShortName>
-    <Version>2023-05-15</Version>
+    <Version>2024-05-15</Version>
     <CanonicalUri>urn:cef.eu:names:identifier:Allowance</CanonicalUri>
-    <CanonicalVersionUri>urn:cef.eu:names:identifier:Allowance-2023-05-15</CanonicalVersionUri>
+    <CanonicalVersionUri>urn:cef.eu:names:identifier:Allowance-2024-05-15</CanonicalVersionUri>
   </Identification>
   <ColumnSet>
     <Column Id="Code" Use="required">

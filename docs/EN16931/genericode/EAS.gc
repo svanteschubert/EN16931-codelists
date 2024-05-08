@@ -10,9 +10,9 @@ Do NOT edit!</ext:info>
   </Annotation>
   <Identification>
     <ShortName>EAS</ShortName>
-    <Version>2023-05-15</Version>
+    <Version>2024-05-15</Version>
     <CanonicalUri>urn:cef.eu:names:identifier:EAS</CanonicalUri>
-    <CanonicalVersionUri>urn:cef.eu:names:identifier:EAS-2023-05-15</CanonicalVersionUri>
+    <CanonicalVersionUri>urn:cef.eu:names:identifier:EAS-2024-05-15</CanonicalVersionUri>
   </Identification>
   <ColumnSet>
     <Column Id="Code" Use="required">
@@ -404,6 +404,14 @@ Chambers of Commerce and Industry in the Netherlands), Scheme (EDIRA compliant)<
       </Value>
       <Value ColumnRef="Name">
         <SimpleValue>The Netherlands Chamber of Commerce and Industry establishment number</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>0218</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>Unified registration number (Latvia)</SimpleValue>
       </Value>
     </Row>
     <Row>
