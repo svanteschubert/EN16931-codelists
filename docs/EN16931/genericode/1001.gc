@@ -2,17 +2,17 @@
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/" xmlns="">
   <Annotation>
     <AppInfo>
-      <ext:info xmlns:ext="urn:cef.eu:codelist:gc-annotation">This is a CEF Code List.
+      <ns4:info xmlns:ns3="http://docs.oasis-open.org/codelist/ns/genericode/1.0/" xmlns:ns4="urn:cef.eu:codelist:gc-annotation">This is a CEF Code List.
 
 This file was automatically generated.
-Do NOT edit!</ext:info>
+Do NOT edit!</ns4:info>
     </AppInfo>
   </Annotation>
   <Identification>
     <ShortName>1001</ShortName>
-    <Version>2021-05-15</Version>
+    <Version>2022-03-04</Version>
     <CanonicalUri>urn:cef.eu:names:identifier:1001</CanonicalUri>
-    <CanonicalVersionUri>urn:cef.eu:names:identifier:1001-2021-05-15</CanonicalVersionUri>
+    <CanonicalVersionUri>urn:cef.eu:names:identifier:1001-2022-03-04</CanonicalVersionUri>
   </Identification>
   <ColumnSet>
     <Column Id="Code" Use="required">
@@ -33,6 +33,17 @@ Do NOT edit!</ext:info>
     </Key>
   </ColumnSet>
   <SimpleCodeList>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>71</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>Request for payment</SimpleValue>
+      </Value>
+      <Value ColumnRef="Remark">
+        <SimpleValue>Invoice</SimpleValue>
+      </Value>
+    </Row>
     <Row>
       <Value ColumnRef="Code">
         <SimpleValue>80</SimpleValue>
@@ -90,6 +101,17 @@ Do NOT edit!</ext:info>
     </Row>
     <Row>
       <Value ColumnRef="Code">
+        <SimpleValue>102</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>Tax notification</SimpleValue>
+      </Value>
+      <Value ColumnRef="Remark">
+        <SimpleValue>Invoice</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
         <SimpleValue>130</SimpleValue>
       </Value>
       <Value ColumnRef="Name">
@@ -138,6 +160,28 @@ Do NOT edit!</ext:info>
       </Value>
       <Value ColumnRef="Name">
         <SimpleValue>Interim application for payment</SimpleValue>
+      </Value>
+      <Value ColumnRef="Remark">
+        <SimpleValue>Invoice</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>218</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>Final payment request based on completion of work</SimpleValue>
+      </Value>
+      <Value ColumnRef="Remark">
+        <SimpleValue>Invoice</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>219</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>Payment request for completed units</SimpleValue>
       </Value>
       <Value ColumnRef="Remark">
         <SimpleValue>Invoice</SimpleValue>
@@ -222,6 +266,17 @@ Do NOT edit!</ext:info>
     </Row>
     <Row>
       <Value ColumnRef="Code">
+        <SimpleValue>331</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>Commercial invoice which includes a packing list</SimpleValue>
+      </Value>
+      <Value ColumnRef="Remark">
+        <SimpleValue>Invoice</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
         <SimpleValue>380</SimpleValue>
       </Value>
       <Value ColumnRef="Name">
@@ -240,6 +295,17 @@ Do NOT edit!</ext:info>
       </Value>
       <Value ColumnRef="Remark">
         <SimpleValue>Credit Note</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>382</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>Commission note</SimpleValue>
+      </Value>
+      <Value ColumnRef="Remark">
+        <SimpleValue>Invoice</SimpleValue>
       </Value>
     </Row>
     <Row>
@@ -442,6 +508,17 @@ Do NOT edit!</ext:info>
     </Row>
     <Row>
       <Value ColumnRef="Code">
+        <SimpleValue>553</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>Forwarder's invoice discrepancy report</SimpleValue>
+      </Value>
+      <Value ColumnRef="Remark">
+        <SimpleValue>Invoice</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
         <SimpleValue>575</SimpleValue>
       </Value>
       <Value ColumnRef="Name">
@@ -490,6 +567,61 @@ Do NOT edit!</ext:info>
       </Value>
       <Value ColumnRef="Name">
         <SimpleValue>Freight invoice</SimpleValue>
+      </Value>
+      <Value ColumnRef="Remark">
+        <SimpleValue>Invoice</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>817</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>Claim notification</SimpleValue>
+      </Value>
+      <Value ColumnRef="Remark">
+        <SimpleValue>Invoice</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>870</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>Consular invoice</SimpleValue>
+      </Value>
+      <Value ColumnRef="Remark">
+        <SimpleValue>Invoice</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>875</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>Partial construction invoice</SimpleValue>
+      </Value>
+      <Value ColumnRef="Remark">
+        <SimpleValue>Invoice</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>876</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>Partial final construction invoice</SimpleValue>
+      </Value>
+      <Value ColumnRef="Remark">
+        <SimpleValue>Invoice</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>877</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>Final construction invoice</SimpleValue>
       </Value>
       <Value ColumnRef="Remark">
         <SimpleValue>Invoice</SimpleValue>

@@ -2,17 +2,17 @@
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/" xmlns="">
   <Annotation>
     <AppInfo>
-      <ext:info xmlns:ext="urn:cef.eu:codelist:gc-annotation">This is a CEF Code List.
+      <ns4:info xmlns:ns3="http://docs.oasis-open.org/codelist/ns/genericode/1.0/" xmlns:ns4="urn:cef.eu:codelist:gc-annotation">This is a CEF Code List.
 
 This file was automatically generated.
-Do NOT edit!</ext:info>
+Do NOT edit!</ns4:info>
     </AppInfo>
   </Annotation>
   <Identification>
     <ShortName>MIME</ShortName>
-    <Version>2021-05-15</Version>
+    <Version>2022-03-04</Version>
     <CanonicalUri>urn:cef.eu:names:identifier:MIME</CanonicalUri>
-    <CanonicalVersionUri>urn:cef.eu:names:identifier:MIME-2021-05-15</CanonicalVersionUri>
+    <CanonicalVersionUri>urn:cef.eu:names:identifier:MIME-2022-03-04</CanonicalVersionUri>
   </Identification>
   <ColumnSet>
     <Column Id="Code" Use="required">

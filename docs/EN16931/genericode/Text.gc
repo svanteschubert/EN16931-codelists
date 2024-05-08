@@ -2,17 +2,17 @@
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/" xmlns="">
   <Annotation>
     <AppInfo>
-      <ext:info xmlns:ext="urn:cef.eu:codelist:gc-annotation">This is a CEF Code List.
+      <ns4:info xmlns:ns3="http://docs.oasis-open.org/codelist/ns/genericode/1.0/" xmlns:ns4="urn:cef.eu:codelist:gc-annotation">This is a CEF Code List.
 
 This file was automatically generated.
-Do NOT edit!</ext:info>
+Do NOT edit!</ns4:info>
     </AppInfo>
   </Annotation>
   <Identification>
     <ShortName>Text</ShortName>
-    <Version>2021-05-15</Version>
+    <Version>2022-03-04</Version>
     <CanonicalUri>urn:cef.eu:names:identifier:Text</CanonicalUri>
-    <CanonicalVersionUri>urn:cef.eu:names:identifier:Text-2021-05-15</CanonicalVersionUri>
+    <CanonicalVersionUri>urn:cef.eu:names:identifier:Text-2022-03-04</CanonicalVersionUri>
   </Identification>
   <ColumnSet>
     <Column Id="Code" Use="required">
@@ -2247,6 +2247,78 @@ Do NOT edit!</ext:info>
     </Row>
     <Row>
       <Value ColumnRef="Code">
+        <SimpleValue>BAT</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>SIMA applicable</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>BAU</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>Appeals program code</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>BAV</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>SIMA subject</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>BAW</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>Surtax applicable</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>BAX</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>SIMA security bond</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>BAY</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>Surtax subject</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>BAZ</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>Safeguard applicable</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>BBA</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>Safeguard applicable</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>BBB</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>Safeguard subject</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
         <SimpleValue>BLC</SimpleValue>
       </Value>
       <Value ColumnRef="Name">
@@ -2479,10 +2551,82 @@ Do NOT edit!</ext:info>
     </Row>
     <Row>
       <Value ColumnRef="Code">
+        <SimpleValue>BMF</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>SIMA measure in force</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>BMG</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>Pre-CARM</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>BMH</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>SIMA measure type</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
         <SimpleValue>CCI</SimpleValue>
       </Value>
       <Value ColumnRef="Name">
         <SimpleValue>Customs clearance instructions</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>CCJ</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>Sub Type Code</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>CCK</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>SIMA information</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>CCL</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>Time limit end</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>CCM</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>Time limit start</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>CCN</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>Warehouse time limit</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>CCO</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>Value for duty information</SimpleValue>
       </Value>
     </Row>
     <Row>
