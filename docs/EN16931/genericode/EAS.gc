@@ -10,9 +10,9 @@ Do NOT edit!</ns4:info>
   </Annotation>
   <Identification>
     <ShortName>EAS</ShortName>
-    <Version>2022-03-04</Version>
+    <Version>2022-09-21</Version>
     <CanonicalUri>urn:cef.eu:names:identifier:EAS</CanonicalUri>
-    <CanonicalVersionUri>urn:cef.eu:names:identifier:EAS-2022-03-04</CanonicalVersionUri>
+    <CanonicalVersionUri>urn:cef.eu:names:identifier:EAS-2022-09-21</CanonicalVersionUri>
   </Identification>
   <ColumnSet>
     <Column Id="Code" Use="required">
@@ -408,22 +408,6 @@ Chambers of Commerce and Industry in the Netherlands), Scheme (EDIRA compliant)<
     </Row>
     <Row>
       <Value ColumnRef="Code">
-        <SimpleValue>9906</SimpleValue>
-      </Value>
-      <Value ColumnRef="Name">
-        <SimpleValue>Ufficio responsabile gestione partite IVA</SimpleValue>
-      </Value>
-    </Row>
-    <Row>
-      <Value ColumnRef="Code">
-        <SimpleValue>9907</SimpleValue>
-      </Value>
-      <Value ColumnRef="Name">
-        <SimpleValue>TAX Authority</SimpleValue>
-      </Value>
-    </Row>
-    <Row>
-      <Value ColumnRef="Code">
         <SimpleValue>9910</SimpleValue>
       </Value>
       <Value ColumnRef="Name">
@@ -749,6 +733,14 @@ Organisationskennzeichen</SimpleValue>
       </Value>
       <Value ColumnRef="Name">
         <SimpleValue>French VAT number</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>9959</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>Employer Identification Number (EIN, USA)</SimpleValue>
       </Value>
     </Row>
   </SimpleCodeList>

@@ -10,9 +10,9 @@ Do NOT edit!</ns4:info>
   </Annotation>
   <Identification>
     <ShortName>Country</ShortName>
-    <Version>2022-03-04</Version>
+    <Version>2022-09-21</Version>
     <CanonicalUri>urn:cef.eu:names:identifier:Country</CanonicalUri>
-    <CanonicalVersionUri>urn:cef.eu:names:identifier:Country-2022-03-04</CanonicalVersionUri>
+    <CanonicalVersionUri>urn:cef.eu:names:identifier:Country-2022-09-21</CanonicalVersionUri>
   </Identification>
   <ColumnSet>
     <Column Id="Code" Use="required">
@@ -1834,7 +1834,7 @@ Do NOT edit!</ns4:info>
         <SimpleValue>TR</SimpleValue>
       </Value>
       <Value ColumnRef="Name">
-        <SimpleValue>Turkey</SimpleValue>
+        <SimpleValue>Türkiye</SimpleValue>
       </Value>
     </Row>
     <Row>

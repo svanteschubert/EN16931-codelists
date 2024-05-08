@@ -10,9 +10,9 @@ Do NOT edit!</ns4:info>
   </Annotation>
   <Identification>
     <ShortName>Currency</ShortName>
-    <Version>2022-03-04</Version>
+    <Version>2022-09-21</Version>
     <CanonicalUri>urn:cef.eu:names:identifier:Currency</CanonicalUri>
-    <CanonicalVersionUri>urn:cef.eu:names:identifier:Currency-2022-03-04</CanonicalVersionUri>
+    <CanonicalVersionUri>urn:cef.eu:names:identifier:Currency-2022-09-21</CanonicalVersionUri>
   </Identification>
   <ColumnSet>
     <Column Id="Code" Use="required">
@@ -1063,10 +1063,18 @@ Do NOT edit!</ns4:info>
     </Row>
     <Row>
       <Value ColumnRef="Code">
+        <SimpleValue>SLE</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>Sierra Leone (new valuation 2022)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
         <SimpleValue>SLL</SimpleValue>
       </Value>
       <Value ColumnRef="Name">
-        <SimpleValue>Leone</SimpleValue>
+        <SimpleValue>Sierra Leone</SimpleValue>
       </Value>
     </Row>
     <Row>
