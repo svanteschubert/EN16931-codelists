@@ -2,17 +2,17 @@
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/" xmlns="">
   <Annotation>
     <AppInfo>
-      <ns4:info xmlns:ns3="http://docs.oasis-open.org/codelist/ns/genericode/1.0/" xmlns:ns4="urn:cef.eu:codelist:gc-annotation">This is a CEF Code List.
+      <ext:info xmlns:ext="urn:cef.eu:codelist:gc-annotation">This is a CEF Code List.
 
 This file was automatically generated.
-Do NOT edit!</ns4:info>
+Do NOT edit!</ext:info>
     </AppInfo>
   </Annotation>
   <Identification>
     <ShortName>ICD</ShortName>
-    <Version>2022-09-21</Version>
+    <Version>2023-05-15</Version>
     <CanonicalUri>urn:cef.eu:names:identifier:ICD</CanonicalUri>
-    <CanonicalVersionUri>urn:cef.eu:names:identifier:ICD-2022-09-21</CanonicalVersionUri>
+    <CanonicalVersionUri>urn:cef.eu:names:identifier:ICD-2023-05-15</CanonicalVersionUri>
   </Identification>
   <ColumnSet>
     <Column Id="Code" Use="required">
@@ -1747,6 +1747,86 @@ Do NOT edit!</ns4:info>
       </Value>
       <Value ColumnRef="Name">
         <SimpleValue>The Register of Natural Persons (Latvia)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>0221</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>The registered number of the qualified invoice issuer</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>0222</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>Metadata Registry Support</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>0223</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>EU based company</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>0224</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>FTCTC CODE ROUTAGE</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>0225</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>FRCTC ELECTRONIC ADDRESS</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>0226</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>FRCTC Particulier</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>0227</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>NON - EU based company</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>0228</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>Répertoire des Entreprises et des Etablissements (RIDET)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>0229</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>T.A.H.I.T.I (traitement automatique hiérarchisé des institutions de Tahiti et des îles)</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>0230</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>National e-Invoicing Framework</SimpleValue>
       </Value>
     </Row>
   </SimpleCodeList>

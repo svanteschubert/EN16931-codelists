@@ -2,17 +2,17 @@
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/" xmlns="">
   <Annotation>
     <AppInfo>
-      <ns4:info xmlns:ns3="http://docs.oasis-open.org/codelist/ns/genericode/1.0/" xmlns:ns4="urn:cef.eu:codelist:gc-annotation">This is a CEF Code List.
+      <ext:info xmlns:ext="urn:cef.eu:codelist:gc-annotation">This is a CEF Code List.
 
 This file was automatically generated.
-Do NOT edit!</ns4:info>
+Do NOT edit!</ext:info>
     </AppInfo>
   </Annotation>
   <Identification>
     <ShortName>EAS</ShortName>
-    <Version>2022-09-21</Version>
+    <Version>2023-05-15</Version>
     <CanonicalUri>urn:cef.eu:names:identifier:EAS</CanonicalUri>
-    <CanonicalVersionUri>urn:cef.eu:names:identifier:EAS-2022-09-21</CanonicalVersionUri>
+    <CanonicalVersionUri>urn:cef.eu:names:identifier:EAS-2023-05-15</CanonicalVersionUri>
   </Identification>
   <ColumnSet>
     <Column Id="Code" Use="required">
@@ -400,6 +400,38 @@ Chambers of Commerce and Industry in the Netherlands), Scheme (EDIRA compliant)<
     </Row>
     <Row>
       <Value ColumnRef="Code">
+        <SimpleValue>0217</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>The Netherlands Chamber of Commerce and Industry establishment number</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>0221</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>The registered number of the qualified invoice issuer</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>0225</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>FRCTC ELECTRONIC ADDRESS</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
+        <SimpleValue>0230</SimpleValue>
+      </Value>
+      <Value ColumnRef="Name">
+        <SimpleValue>National e-Invoicing Framework</SimpleValue>
+      </Value>
+    </Row>
+    <Row>
+      <Value ColumnRef="Code">
         <SimpleValue>9901</SimpleValue>
       </Value>
       <Value ColumnRef="Name">
@@ -717,14 +749,6 @@ Organisationskennzeichen</SimpleValue>
       </Value>
       <Value ColumnRef="Name">
         <SimpleValue>Holy See (Vatican City State) VAT number</SimpleValue>
-      </Value>
-    </Row>
-    <Row>
-      <Value ColumnRef="Code">
-        <SimpleValue>9955</SimpleValue>
-      </Value>
-      <Value ColumnRef="Name">
-        <SimpleValue>Swedish VAT number</SimpleValue>
       </Value>
     </Row>
     <Row>
